@@ -1,0 +1,17 @@
+{ 	"extensionName": "Tello Control",
+ 	"extensionPort": 8001,
+ 	"blockSpecs": [
+		[" ", "とぶ", "takeoff"],
+		[" ", "おりる", "land"],
+		[" ", "あがる %n", "up", 20],
+		[" ", "さがる %n", "down", 20],
+		[" ", "ひだり %n", "left", 20],
+		[" ", "みぎ %n", "right", 20],
+		[" ", "まえ %n", "forward", 20],
+		[" ", "うしろ %n", "back", 20],
+		[" ", "みぎまわり %n", "cw", 90],
+		[" ", "ひだりまわり %n", "ccw", 90],
+		[" ", "かいてん %s", "flip", "f"],
+		[" ", "そくど %n", "setspeed", 80],		
+ 	]
+}
